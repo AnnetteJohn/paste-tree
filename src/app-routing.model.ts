@@ -10,6 +10,12 @@ import { ProductDetailsPasteriesComponent } from './app/product-details-pasterie
 import { ProductDetailsCookiesComponent } from './app/product-details-cookies/product-details-cookies.component';
 import { ProductDetailsPieComponent } from './app/product-details-pie/product-details-pie.component';
 import { ProductDetailsDonutsComponent } from './app/product-details-donuts/product-details-donuts.component';
+import { ProductCakesComponent } from './app/product-cakes/product-cakes.component';
+import { ProductCupcakesComponent } from './app/product-cupcakes/product-cupcakes.component';
+import { ProductPasteriesComponent } from './app/product-pasteries/product-pasteries.component';
+import { ProductPieComponent } from './app/product-pie/product-pie.component';
+import { ProductDonutsComponent } from './app/product-donuts/product-donuts.component';
+import { ProductCookiesComponent } from './app/product-cookies/product-cookies.component';
 
 
 const appRoutes:Routes =[
@@ -19,12 +25,19 @@ const appRoutes:Routes =[
     {path:'login',component:LoginComponent},
     {path:'sign-up',component:SignUpComponent},
     {path:'cart',component:CartComponent},
-    {path:'cakes',component:ProductDetailsCakesComponent},
-    {path:'cupcakes',component:ProductDetailsCupcakesComponent},
-    {path:'pasteries',component:ProductDetailsPasteriesComponent},
-    {path:'cookies',component:ProductDetailsCookiesComponent},
-    {path:'pie',component:ProductDetailsPieComponent},
-    {path:'donuts',component:ProductDetailsDonutsComponent},
+    {path:'details-cakes',component:ProductDetailsCakesComponent},
+    {path:'details-cupcakes',component:ProductDetailsCupcakesComponent},
+    {path:'details-pasteries',component:ProductDetailsPasteriesComponent},
+    {path:'details-cookies',component:ProductDetailsCookiesComponent},
+    {path:'details-pie',component:ProductDetailsPieComponent},
+    {path:'details-donuts',component:ProductDetailsDonutsComponent},
+    {path:'cakes',component:ProductCakesComponent},
+    {path:'cupcakes',component:ProductCupcakesComponent},
+    {path:'pasteries',component:ProductPasteriesComponent},
+    {path:'cookies',component:ProductCookiesComponent},
+    {path:'pie',component:ProductPieComponent},
+    {path:'donuts',component:ProductDonutsComponent},
+
 
 
 ];

@@ -16,6 +16,12 @@ import { ProductDetailsPasteriesComponent } from './product-details-pasteries/pr
 import { ProductDetailsCookiesComponent } from './product-details-cookies/product-details-cookies.component';
 import { ProductDetailsPieComponent } from './product-details-pie/product-details-pie.component';
 import { ProductDetailsDonutsComponent } from './product-details-donuts/product-details-donuts.component';
+import { ProductCakesComponent } from './product-cakes/product-cakes.component';
+import { ProductCupcakesComponent } from './product-cupcakes/product-cupcakes.component';
+import { ProductPasteriesComponent } from './product-pasteries/product-pasteries.component';
+import { ProductPieComponent } from './product-pie/product-pie.component';
+import { ProductDonutsComponent } from './product-donuts/product-donuts.component';
+import { ProductCookiesComponent } from './product-cookies/product-cookies.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +37,13 @@ import { ProductDetailsDonutsComponent } from './product-details-donuts/product-
     ProductDetailsPasteriesComponent,
     ProductDetailsCookiesComponent,
     ProductDetailsPieComponent,
-    ProductDetailsDonutsComponent
+    ProductDetailsDonutsComponent,
+    ProductCakesComponent,
+    ProductCupcakesComponent,
+    ProductPasteriesComponent,
+    ProductPieComponent,
+    ProductDonutsComponent,
+    ProductCookiesComponent
   ],
   imports: [
     BrowserModule,
